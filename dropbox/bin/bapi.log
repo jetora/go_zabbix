@@ -1,0 +1,3 @@
+2017/08/18 10:17:36 [I] [log.go:610] generate router from comments
+2017/08/18 10:17:36 [I] [log.go:610] http server Running on http://:8080
+2017/08/18 10:17:36 [C] [log.go:580] ListenAndServe:  listen tcp :8080: bind: address already in use
