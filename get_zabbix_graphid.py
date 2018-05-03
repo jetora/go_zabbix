@@ -12,10 +12,10 @@ import urllib2
 
 class Get_zabbix_graphid:
     def __init__(self):
-        self.url = "http://zabbixm.mysql.jddb.com/api_jsonrpc.php"
+        self.url = "http://xxx/api_jsonrpc.php"
         self.header = {"Content-Type": "application/json"}
-        self.user = "monitor"
-        self.passwd = "monitor"
+        self.user = "xxx"
+        self.passwd = "xxx"
         self.authID = self.user_login()
 
     def user_login(self):
