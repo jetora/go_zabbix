@@ -15,10 +15,10 @@ import (
 var cookies []*http.Cookie
 
 const (
-	spider_base_url string = "http://dbmonitor.jd.com/zabbix.php?action=dashboard.view"
-	login_url       string = "http://dbmonitor.jd.com/index.php"
-	username        string = "monitor"
-	password        string = "monitor"
+	spider_base_url string = "http://xxx/zabbix.php?action=dashboard.view"
+	login_url       string = "http://xxx/index.php"
+	username        string = "xxx"
+	password        string = "xxx"
 )
 
 type AragsHost struct {
