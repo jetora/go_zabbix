@@ -9,9 +9,9 @@ import get_zabbix_graphid
 
 class Down_graph(object):
     def __init__(self):
-        self.url = 'http://zabbixm.mysql.jddb.com/index.php'
-        self.name = 'monitor'
-        self.password = 'monitor'
+        self.url = 'http://xxx/index.php'
+        self.name = 'xxx'
+        self.password = 'xxx'
         #初始化的时候生成cookies
         cookiejar = cookielib.CookieJar()
         urlOpener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookiejar))
