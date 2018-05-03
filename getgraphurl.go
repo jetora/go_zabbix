@@ -11,12 +11,12 @@ import (
 )
 
 const (
-	spider_base_url string = "http://dbmonitor.jd.com/zabbix.php?action=dashboard.view"
-	login_url       string = "http://dbmonitor.jd.com/index.php"
-	api_url         string = "http://dbmonitor.jd.com/api_jsonrpc.php"
-	graph_url       string = "http://dbmonitor.jd.com/chart2.php"
-	username        string = "monitor"
-	password        string = "monitor"
+	spider_base_url string = "http://xxx/zabbix.php?action=dashboard.view"
+	login_url       string = "http://xxx/index.php"
+	api_url         string = "http://xxx/api_jsonrpc.php"
+	graph_url       string = "http://xxx/chart2.php"
+	username        string = "xxx"
+	password        string = "xxx"
 )
 
 var cookies []*http.Cookie
